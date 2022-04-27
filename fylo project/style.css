@@ -1,0 +1,211 @@
+
+body{
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.nav-list{    
+    margin-left: 1100px;
+    display: flex;
+    
+    margin-top: 50px;
+    justify-content: space-between;
+    
+}
+.nav-item{
+    padding-left: 50px;
+    margin-left: -25px;
+}
+
+
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+
+}
+.secure-image, .productive-image{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.first-button{
+    padding: 20px 100px 20px 100px;
+    border-radius: 35px;
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(50deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+}
+
+button:hover{
+    cursor: pointer;
+    background: hsl(176, 68%, 64%);
+}
+
+.the-four{
+    width: 68%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding-left: 300px;
+    margin-top: 200px;
+    margin-left: 40px;
+
+}
+.last-two{
+    margin-top: -8px;
+    padding-left: 70px;
+}
+p{
+    font-size: 18px;
+}
+h4{
+    font-size: 1.4rem;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    margin-top: 200px;
+    margin-left: 70px;
+}
+.product-2{
+    padding-left: 100px;
+    width: 60%;
+    margin-top: 50px;
+}
+.fyloworks{
+    border-bottom: 1px solid hsl(176, 68%, 64%);
+    color: hsl(176, 68%, 64%);;
+}
+.fyloworks:hover{
+    color: hsl(0, 0%, 100%);
+    border-bottom-color: hsl(0, 0%, 100%);
+}
+
+/* Testimonial section */
+article{
+    margin-top: 70px;
+}
+.comments{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.test{
+    width: 30%;
+    margin-left: 50px;
+    margin-right: 50px;
+    background: hsl(219, 30%, 18%);
+    border-radius: 5px;
+    padding: 30px;
+    box-shadow: 2px 2px 20px 2px hsl(216, 53%, 9%);
+
+
+}
+.test img{
+    border-radius: 50%;
+    width: 50px;
+    margin-top: 20px;
+    
+}
+
+.test .test2{
+    text-align: center;
+    margin-top: -70px;
+    margin-left: -100px;
+}
+
+
+
+/* Form section */
+
+form{
+    background: hsl(219, 30%, 18%);
+    width: 50%;
+    height: 300px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 420px;
+    text-align: center;
+    justify-content: center;
+    
+    
+}
+.forming{
+    padding-top: 50px;
+}
+#form-button{
+    padding: 15px 400px 15px 5px;
+    border-radius: 35px;
+}
+.first-button2{
+    padding: 15px 30px 15px 30px;
+    margin-left: 10px;
+    border-radius: 35px;
+    color: hsl(0, 0%, 100%);
+    background: linear-gradient(50deg, hsl(198, 60%, 50%), hsl(176, 68%, 64%));
+}
+
+
+
+/* Footer */
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 25px;
+}
+
+    
+    
+
+.fylogo{
+    margin-left: 15px;
+}
+
+
+
+.first-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-bottom: 50px;
+
+}
+.about ul li{
+    padding-bottom: 25px;
+    color: hsl(0, 0%, 100%);
+
+}
+.about2 ul li{
+    padding-bottom: 25px;
+    color: hsl(0, 0%, 100%);
+    
+
+}
+
+.about-li:hover{
+    color: hsl(174, 68%, 64%);
+}
